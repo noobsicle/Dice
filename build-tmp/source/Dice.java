@@ -52,12 +52,12 @@ class Die //models one single dice cube
 		rect(dX,dY,350,350,15);
 		if (pips == 1)
 		{
-
 			ellipse(dX + 175, dY + 175,20,20);
 		}
 		if (pips == 2)
 		{
-
+			ellipse(dX + 60, dY + 60,25,25);
+			ellipse(dX + 290, dY + 290, 25, 25);
 		}
 	}
 }
